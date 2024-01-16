@@ -207,7 +207,7 @@ nav li a {
 
 .dest-r1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 1rem;
     margin: 1rem;
 }
@@ -224,4 +224,90 @@ nav li a {
     justify-content: space-around;
     margin: 1rem;
     gap: 1rem;
+}
+
+/* why choose us section */
+.choose-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.choose-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.ch-us-r1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 135px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+.ch-us-r2{
+    padding: 0 433px;
+}
+.ch-bg-1 {
+    width: 515px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.ch-bg-2 {
+    width: 515px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.ch-bg-3 {
+    width: 515px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding-left: 32px;
+    padding-top: 32px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+}
+
+.ch-us-header {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.ch-us-text {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
 }
