@@ -1,8 +1,10 @@
 /* Mulish font copied from google font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
     font-family: 'Mulish', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -123,8 +125,9 @@ nav li a {
 /* Main part style */
 .popular-tours {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 100px 135px;
+    gap: 30px;
 }
 
 .tours-title {
@@ -207,21 +210,24 @@ nav li a {
 
 .dest-r1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin: 1rem;
 }
 
 .dest-r2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
     gap: 1rem;
 }
 
 .dest-r3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 1rem;
     gap: 1rem;
 }
@@ -247,7 +253,7 @@ nav li a {
 
 .ch-us-r1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 100px 135px;
     gap: 1rem;
     margin-bottom: 1rem;
@@ -255,7 +261,8 @@ nav li a {
 }
 
 .ch-us-r2 {
-    padding: 0 433px;
+    display: flex;
+    justify-content: center;
 }
 
 .ch-bg-1 {
@@ -318,9 +325,10 @@ nav li a {
 /* Newsletter section style */
 .newsletter {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 100px 135px;
     gap: 1.5rem;
+    margin-bottom: 0px;
 
 }
 
@@ -330,14 +338,8 @@ nav li a {
     flex-shrink: 0;
     border-radius: 16px;
     border: 1px solid #FF5400;
-    
-}
 
-/* .form{
-    display: flgrex;
-    flex-direction: column;
-} */
-.news-img {}
+}
 
 .news-head {
     color: #131318;
@@ -395,4 +397,98 @@ nav li a {
     border: none;
     padding-left: 20px;
     margin-left: 40px;
+}
+
+.discount {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: #FF5400;
+    padding-top: 5px;
+    position: relative;
+    bottom: 180px;
+    left: 340px;
+}
+
+.news-email {
+    transform: rotate(-0deg);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.news-saver {
+    transform: rotate(-0deg);
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Footer Section style */
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    height: 502px;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding-top: 110px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+}
+
+.footer-title {
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 33px;
+    margin-bottom: 50px;
+}
+.s-icon{
+    height: 24px;
+    width: 24px;
+}
+
+.hr-1{
+    margin: 0px 284px;
 }
