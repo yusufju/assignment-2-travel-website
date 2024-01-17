@@ -7,6 +7,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+.header-logo {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
 
 nav {
     display: flex;
@@ -18,14 +24,6 @@ nav {
 .nav-title {
     font-size: 2.25rem;
     font-weight: 800;
-}
-
-.menue {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    display: none;
 }
 
 .venture {
@@ -472,7 +470,7 @@ nav li a {
 }
 
 .logo {
-    width: 40px;
+    width: 56px;
     height: 46.673px;
     flex-shrink: 0;
 }
@@ -520,23 +518,27 @@ nav li a {
 
 /* Responsive styles */
 @media screen and (max-width: 600px) {
+    nav {
+        align-items: start;
+        margin-left: 20px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 35px;
+        flex-shrink: 0;
+    }
+
+    .nav-title {
+        font-size: 22px;
+    }
+
     nav>ul {
         display: none;
     }
-
-    /* .menue{
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
+    #Hamburger-icon{
         display: block;
     }
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 52px 127px 49px 135px;
-    } */
     .header-background {
         width: auto;
         height: auto;
@@ -634,14 +636,12 @@ nav li a {
         margin-bottom: 16px;
     }
 
-    .dest-title{
+    .dest-title {
         font-size: 20px;
         margin-bottom: 16px;
     }
-    .destination{
-        margin-bottom: ;
-    }
-    .dest-description{
+
+    .dest-description {
         font-size: 14px;
     }
 
@@ -660,10 +660,12 @@ nav li a {
     .dest-r3 {
         flex-direction: column;
     }
-    .dest-img{
+
+    .dest-img {
         width: 200%;
         height: 100%;
     }
+
     .choose-title {
         font-size: 20px;
     }
@@ -742,15 +744,35 @@ nav li a {
         height: 100%;
         flex-shrink: 0;
     }
-    .discount{
-        bottom: 180px;
-        left: 230px;
-    }
-    .footer-logo{
-        padding-top: 34px;
-    }
-    .hr-1{
-        margin: 0px 24px;
+
+    .discount {
+        width: 215px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 10.5px;
+        bottom: 130px;
+        left: 330px;
+        position: relative;
     }
     
+    .news-email {
+        transform: rotate(-0deg);
+        font-size: 15.85px;
+        margin-bottom: 8px;
+    }
+    
+    .news-saver {
+        font-size: 21px;
+        font-weight: 800;
+    }
+
+    .footer-logo {
+        padding-top: 34px;
+    }
+
+    .hr-1 {
+        margin: 0px 24px;
+    }
+
 }
