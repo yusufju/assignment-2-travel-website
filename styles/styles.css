@@ -638,7 +638,9 @@ nav li a {
         font-size: 20px;
         margin-bottom: 16px;
     }
-
+    .destination{
+        margin-bottom: ;
+    }
     .dest-description{
         font-size: 14px;
     }
@@ -649,9 +651,6 @@ nav li a {
 
     .dest-r1 {
         flex-direction: column;
-        margin: 0px 10px;
-        width: 100%;
-        height: 100%;
     }
 
     .dest-r2 {
@@ -661,7 +660,10 @@ nav li a {
     .dest-r3 {
         flex-direction: column;
     }
-
+    .dest-img{
+        width: 200%;
+        height: 100%;
+    }
     .choose-title {
         font-size: 20px;
     }
